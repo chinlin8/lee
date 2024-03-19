@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的個人網頁</h1>
+    </header>
+    <nav>
+        <a href="#about">關於我</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
+    <section id="about">
+        <h2>關於我</h2>
+        <p>這裡是我個人網頁的關於我部分，您可以在這裡寫關於自己的介紹。</p>
+    </section>
+    <section id="portfolio">
+        <h2>作品集</h2>
+        <p>這裡是我的作品集，您可以在這裡展示您的作品和項目。</p>
+    </section>
+    <section id="contact">
+        <h2>聯絡我</h2>
+        <p>如果您有任何問題或合作請求，請通過以下方式聯絡我：</p>
+        <p>Email: example@example.com</p>
+        <p>電話: 123-456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 我的個人網頁</p>
+    </footer>
+</body>
+</html>
